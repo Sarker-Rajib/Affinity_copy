@@ -1,0 +1,34 @@
+.newsletter{
+   background-color: #4158D0;
+   background-image: linear-gradient(43deg,
+   #249C54 0%, #0F666B 46%, #024579 100%);
+
+
+   .form-body{
+      background: #FFFFFF;
+      border-radius: 25px;
+      position: relative;
+      width: 450px;
+      margin: auto;
+      
+      .input{
+         border: none;         
+      }
+
+      .btn-default{
+         position: absolute;
+         right: 8px;
+         top: 50%;
+         transform: translateY(-50%);
+         background: #F2994A;
+         border-radius: 25px;
+         color: #FFFFFF;
+      }
+
+      @media screen and (max-width: 767px) {
+         width: 300px;         
+      }
+
+   }
+
+}

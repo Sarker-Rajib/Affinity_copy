@@ -1,0 +1,29 @@
+.banner{
+   .sub-banner{
+      background: url(../images/banner/milling3R.png) no-repeat center center/cover;
+      position: relative;
+      z-index: -2;
+
+      ::after{
+         content:"";
+         position: absolute;
+         top: 0;
+         left: 0;
+         height: 100%;
+         width: 100%;
+         background: #024579;
+         opacity: 0.3;
+         z-index: -1;
+      }
+
+      .section-heading{
+         font-size: 35px;
+         color: #fff;
+         z-index: 999;
+
+         @media screen and (max-width: 768px) {
+            font-size: 25px;      
+         }
+      }
+   }
+}

@@ -1,0 +1,13 @@
+.nav-link{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 20px;
+   color: #59708B;
+   transition: 0.2s;
+
+
+   &:hover{
+      color: brighter(#59708B);
+      transition: 0.2s;
+   }
+}

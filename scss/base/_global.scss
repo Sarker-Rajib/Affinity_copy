@@ -1,0 +1,44 @@
+// global set-up starts
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h4, h5, h6, ol, ul, p, address, strong, i, span, label {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 15px;
+}
+
+h2{
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  font-size: 41px;
+  font-weight: 800;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  color: #263d74;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+// global set-up ends

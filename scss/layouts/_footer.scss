@@ -1,0 +1,23 @@
+.footer{
+   padding-top: 10px;
+   background: #024579;
+   a{
+      font-size: 12px;
+      color: #fff;
+   }
+   
+         li:not(:last-child){
+            border-right: 1px solid #fff;
+            padding-right: 5px;
+         }
+   p{
+      font-size: 12px;
+      color: #fff;
+   }
+
+   .link{
+      @media screen and (max-width: 767px) {
+         margin-top: 10px;         
+      }
+   }
+}

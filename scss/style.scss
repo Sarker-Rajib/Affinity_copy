@@ -1,0 +1,36 @@
+/*=== abstracts css start === */
+@import 'abstracts/fonts';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+/*===// end of abstracts css === */
+
+
+/*=== base css start === */
+@import 'base/global';
+@import 'base/config';
+@import 'base/utility';
+/*===// end of base css === */
+
+
+/*=== components css start === */
+@import 'components/buttons';
+/*===// end of components css === */
+
+
+/*=== layouts css start === */
+@import 'layouts/navbar';
+@import 'layouts/footer';
+@import 'layouts/banner';
+@import 'layouts/newsletter';
+@import 'layouts/bottomDirection';
+@import 'layouts/trusted';
+@import 'layouts/checkRiepilogo';
+/*===// end of layouts css === */
+
+
+
+/*=== pages start === */
+
+/*===// end of pages  === */
+
+

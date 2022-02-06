@@ -1,0 +1,57 @@
+.bottom-direction{
+   a{
+      color: #59708B;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+
+      @media screen and (max-width: 767px){
+         font-size: 14px;
+      }
+   }
+   h3{
+      color: #024579;
+   }
+   p{
+      color: #59708B;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+   }
+
+   i{
+      color: #59708B;
+      font-size: 20px;
+      padding: 5px;
+
+      &:hover{
+         color: #537ba8;
+      }
+   }
+
+   .address{
+      .social-link{
+         @media (min-width: 768px){
+            display: none;
+         }
+      }
+   }
+   
+   .our-services{
+      @media screen and (max-width: 767px){
+         display: none;
+      }
+   }
+
+   .about{
+      @media screen and (max-width: 767px){
+         display: none;
+      }
+   }
+
+   .proud-member{
+      @media screen and (max-width: 767px){
+         display: none;
+      }
+   }
+}
